@@ -1,0 +1,115 @@
+body {
+    background-color: #fffbe7;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1#main-title {
+    color: #1a237e;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 48px;
+}
+
+h2#skills {
+    color: #e53935;
+    padding: 20px 40px;
+    border: 3px solid #e53935;
+    position: sticky;
+    top: 0;
+    background: #fffbe7;
+    z-index: 10;
+    width: 60%;
+    margin: 30px auto 20px auto;
+    font-size: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+h2.c1 {
+    color: #d81b60;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f8bbd0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2#education {
+    color: #3949ab;
+    height: 60px;
+    width: 60%;
+    margin: 30px auto 20px auto;
+    font-size: 32px;
+    background: #e3f2fd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+ul, ol {
+    width: 60%;
+    margin: 0 auto 30px auto;
+    font-size: 24px;
+    background: #f8bbd0;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 22px;
+    background: #fffde7;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid #bdbdbd;
+    padding: 12px 24px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    background: #f3e5f5;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 14px 40px;
+    font-size: 22px;
+    color: #fff;
+    background: #3949ab;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #1a237e;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0 0 0;
+    color: #757575;
+    font-size: 18px;
+}
