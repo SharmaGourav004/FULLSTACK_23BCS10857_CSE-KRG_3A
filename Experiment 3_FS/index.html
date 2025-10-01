@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product list</title>
+  <style>
+    .product {
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid gray;
+    }
+    .product.electronics {
+      border: 1px solid gray;
+    }
+    .product.clothing {
+      border: 1px solid gray;;
+    }
+    .product.books {
+      border: 1px solid gray;
+    }
+  </style>
+</head>
+<body>
+  <label for="category">Product Filter</label>
+
+  <select id="category">
+    <option value ="all">All</option>
+    <option value="electronics">electronics</option>
+    <option value="clothing">clothing</option>  
+    <option value="books">books</option>
+  </select>
+  <div id="products"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
